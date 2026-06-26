@@ -235,6 +235,12 @@ main > .section {
   padding: 84px 0;
 }
 
+/* a metadata-only section is consumed into <head>, leaving an empty .section;
+   collapse it so it adds no vertical space (e.g. above the hero) */
+main > .section:empty {
+  display: none;
+}
+
 main > .section > div {
   max-width: var(--maxw);
   margin: auto;
