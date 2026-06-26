@@ -8,6 +8,22 @@ helix-importer-ui
 *.bak
 .idea
 
+# secrets + local QA + stardust working artifacts (not part of the EDS site)
+.env
+.env.*
+qa/
+stardust/
+scratchpad/
+/PRODUCT.md
+/DESIGN.md
+/DESIGN.json
+/DESIGN-A.md
+/DESIGN-A.json
+/DESIGN-B.md
+/DESIGN-B.json
+/DESIGN-C.md
+/DESIGN-C.json
+
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
