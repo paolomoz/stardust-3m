@@ -8,7 +8,9 @@
  *
  * Reads the section head (heading/lede) authored as default content above it.
  */
-const DEFAULT_INDEX = '/3m/en_us/query-index.json';
+// Static index served from the code bus (the EDS query-index service is not
+// enabled for this site config; this JSON is regenerated when content changes).
+const DEFAULT_INDEX = '/site-index.json';
 
 const TITLE_OVERRIDE = {
   'building-construction-us': 'Building & Construction',
