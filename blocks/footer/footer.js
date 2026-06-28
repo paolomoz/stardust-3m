@@ -31,13 +31,13 @@ const COLUMNS = [
       { t: 'About 3M', href: '/3m/en_us/about-3m' },
       { t: 'Careers', href: '/3m/en_us/careers-us' },
       { t: 'Sustainability', href: '/3m/en_us/sustainability-us' },
-      { t: 'Investors', href: `${SRC}/investor-relations/` },
+      { t: 'Investors', href: 'https://investors.3m.com/' },
     ],
   },
   {
     h: 'Support',
     links: [
-      { t: 'Contact us', href: `${SRC}/company-us/contact-us/` },
+      { t: 'Contact us', href: `${SRC}/company-us/` },
       { t: 'Site map', href: `${SRC}/company-us/site-map/` },
       { t: 'SDS / regulatory', href: `${SRC}/company-us/SDS-search/` },
       { t: 'Where to buy', href: `${SRC}/company-us/where-to-buy/` },
@@ -53,7 +53,7 @@ const SOCIAL = [
 ];
 const LEGAL = [
   { t: 'Privacy', href: `${SRC}/company-us/privacy-policy/` },
-  { t: 'Terms', href: `${SRC}/company-us/legal/` },
+  { t: 'Terms', href: `${SRC}/company-us/legal-information/` },
   { t: 'Cookie Preferences', href: '#' },
 ];
 
