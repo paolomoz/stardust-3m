@@ -5,14 +5,14 @@
   "data": [
     {
       "path": "/3m/en_us/about-3m",
-      "title": "Learn About 3M: Innovation, History &amp; Core Values",
-      "description": "Learn about our company in general, the impact of our science on the world, how we innovate, business practices, global &amp; social initiatives and much more here.",
+      "title": "Learn About 3M: Innovation, History & Core Values",
+      "description": "Learn about our company in general, the impact of our science on the world, how we innovate, business practices, global & social initiatives and much more here.",
       "template": "about-editorial",
       "image": ""
     },
     {
       "path": "/3m/en_us/architectural-design-us",
-      "title": "Architectural Design - Decorative Films &amp; Finishes | 3M US",
+      "title": "Architectural Design - Decorative Films & Finishes | 3M US",
       "description": "3M glass and surface finishes are sustainable architectural design choices. Surface films provide customizable solutions for interior design.",
       "template": "industry-landing",
       "image": ""
@@ -20,35 +20,35 @@
     {
       "path": "/3m/en_us/auto-care-us",
       "title": "Auto Care | 3M",
-      "description": "3M offers quality auto care products for car restorers, auto enthusiasts - anyone who wants to maintain their vehicle&rsquo;s performance and appearance.",
+      "description": "3M offers quality auto care products for car restorers, auto enthusiasts - anyone who wants to maintain their vehicle\u2019s performance and appearance.",
       "template": "industry-landing",
       "image": ""
     },
     {
       "path": "/3m/en_us/building-construction-us",
-      "title": "Building &amp; Construction Products and Applications | 3M",
+      "title": "Building & Construction Products and Applications | 3M",
       "description": "Innovative 3M building and construction products save you time and money. Solutions designed for a variety of applications, with expert support available.",
       "template": "industry-landing",
       "image": ""
     },
     {
       "path": "/3m/en_us/careers-us",
-      "title": "3M Careers &amp; Employment | Where to Start | 3M US",
-      "description": "Learn about career, job, internship &amp; student opportunities in the United States. Search and apply for current openings or join our 3M talent community. Learn more.",
+      "title": "3M Careers & Employment | Where to Start | 3M US",
+      "description": "Learn about career, job, internship & student opportunities in the United States. Search and apply for current openings or join our 3M talent community. Learn more.",
       "template": "company-landing",
       "image": ""
     },
     {
       "path": "/3m/en_us/defense-markets-us",
-      "title": "Defense Markets For Military Uses &amp; Your Design Ally | 3M",
-      "description": "3M&rsquo;s team of experts can collaborate with Defense Markets to help overcome or avoid a variety of possible design challenges&mdash;often before they ever happen.",
+      "title": "Defense Markets For Military Uses & Your Design Ally | 3M",
+      "description": "3M\u2019s team of experts can collaborate with Defense Markets to help overcome or avoid a variety of possible design challenges\u2014often before they ever happen.",
       "template": "industry-landing",
       "image": ""
     },
     {
       "path": "/3m/en_us/electrical-construction-maintenance-us",
       "title": "Electrical Construction and Maintenance | 3M US",
-      "description": "Get reliable, innovative electrical construction &amp; maintenance solutions from 3M for wire/cable management &amp; repair and safety &amp; personal protection.",
+      "description": "Get reliable, innovative electrical construction & maintenance solutions from 3M for wire/cable management & repair and safety & personal protection.",
       "template": "industry-landing",
       "image": ""
     },
@@ -62,13 +62,13 @@
     {
       "path": "/3m/en_us/home-improvement-us",
       "title": "Home Improvement | 3M United States",
-      "description": "From abrasives to safety, the 3M family of brands has DIY in our DNA. We don't just help you get the job done&mdash;we get it done faster, safer, and smarter.",
+      "description": "From abrasives to safety, the 3M family of brands has DIY in our DNA. We don't just help you get the job done\u2014we get it done faster, safer, and smarter.",
       "template": "industry-landing",
       "image": ""
     },
     {
       "path": "/3m/en_us/p/c/adhesives",
-      "title": "3M Adhesives, Sealants &amp; Fillers | 3M United States",
+      "title": "3M Adhesives, Sealants & Fillers | 3M United States",
       "description": "Substances applied in a liquid or tacky state which undergo a curing process to create a hold between two surfaces. Adhesives are used for bonding, repairing, sealing, and attachment. Includes adhesiv",
       "template": "product-category",
       "image": ""
@@ -90,7 +90,7 @@
     {
       "path": "/3m/en_us/p/c/ppe",
       "title": "3M Personal Protective Equipment | 3M United States",
-      "description": "Anything used or worn by a person that minimizes risk to the person&rsquo;s health or safety and prevents injury or illness caused by exposure to hazardous environmental conditions and materials. Personal p",
+      "description": "Anything used or worn by a person that minimizes risk to the person\u2019s health or safety and prevents injury or illness caused by exposure to hazardous environmental conditions and materials. Personal p",
       "template": "product-category",
       "image": ""
     },
@@ -117,14 +117,14 @@
     },
     {
       "path": "/3m/en_us/sustainability-us",
-      "title": "Discover 3M's Commitment to Sustainability &amp; Innovation | 3M",
+      "title": "Discover 3M's Commitment to Sustainability & Innovation | 3M",
       "description": "Explore 3M's sustainability initiatives and innovations. Learn how we're making a positive impact on the environment and communities worldwide.",
       "template": "industry-landing",
       "image": ""
     },
     {
       "path": "/3m/en_us/transportation-us",
-      "title": "Transportation Markets &amp; Product Expertise Areas | 3M",
+      "title": "Transportation Markets & Product Expertise Areas | 3M",
       "description": "Learn about 3M transportation markets and products for building safer, comfortable, attractive, durable and environmentally responsible modes of transportation.",
       "template": "industry-landing",
       "image": ""
@@ -138,7 +138,7 @@
     },
     {
       "path": "/3m/en_us/worker-health-safety-us",
-      "title": "PPE Safety Solutions | Worker Health &amp; Safety | 3M US",
+      "title": "PPE Safety Solutions | Worker Health & Safety | 3M US",
       "description": "Get the protection you and your workers need most with 3M PPE. Learn about 3M's full line of safety equipment for worker health and safety.",
       "template": "industry-landing",
       "image": ""

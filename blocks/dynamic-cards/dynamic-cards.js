@@ -14,19 +14,22 @@ const DEFAULT_INDEX = '/site-index.json';
 
 const TITLE_OVERRIDE = {
   'building-construction-us': 'Building & Construction',
-  'electrical-construction-maintenance-us': 'Electrical & Construction',
+  'electrical-construction-maintenance-us': 'Electrical, Construction & Maintenance',
   'worker-health-safety-us': 'Worker Health & Safety',
   'architectural-design-us': 'Architectural Design',
   'auto-care-us': 'Auto Care',
   'home-improvement-us': 'Home Improvement',
   'road-safety-us': 'Road Safety',
-  'defense-markets-us': 'Defense',
+  'defense-markets-us': 'Defense Markets',
+  'facility-management-us': 'Facility Management',
+  ppe: 'Personal Protective Equipment',
 };
 
+// Clean, predictable titles from the slug (the raw page <title> is noisy);
+// override the few multi-word / acronym cases.
 function titleFor(row) {
   const slug = row.path.split('/').filter(Boolean).pop();
   if (TITLE_OVERRIDE[slug]) return TITLE_OVERRIDE[slug];
-  if (row.title) return row.title.split('|')[0].split('—')[0].trim();
   return slug.replace(/-us$/, '').replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
