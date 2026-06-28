@@ -1,37 +1,100 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
-}
-
 .hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  min-height: 62vh;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: var(--ink);
+}
+
+.hero .hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero .hero-bg picture,
+.hero .hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero .hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(0deg, rgb(0 0 0 / 88%) 0%, rgb(0 0 0 / 66%) 38%, rgb(0 0 0 / 40%) 70%, rgb(0 0 0 / 32%) 100%),
+    linear-gradient(90deg, rgb(0 0 0 / 45%) 0%, rgb(0 0 0 / 18%) 65%, rgb(0 0 0 / 6%) 100%);
+}
+
+.hero .wrap {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px 56px;
+  color: #fff;
+  text-shadow: 0 1px 18px rgb(0 0 0 / 35%);
+}
+
+.hero .eyebrow {
+  display: inline-block;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 14px;
 }
 
 .hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+  color: #fff;
+  font-weight: 300;
+  font-size: clamp(32px, 4.2vw, 56px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 0;
+  max-width: 20ch;
 }
 
-.hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+.hero .rule {
+  width: 64px;
+  height: 4px;
+  background: var(--accent);
+  margin: 22px 0;
 }
 
-.hero img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+.hero .lede {
+  font-size: clamp(16px, 1.5vw, 20px);
+  line-height: 1.5;
+  max-width: 52ch;
+  margin: 0 0 26px;
+  color: rgb(255 255 255 / 92%);
+}
+
+.hero .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.hero .actions .button.secondary,
+.hero .actions a.secondary {
+  color: #fff;
+  border-color: #fff;
 }
 
 @media (width >= 900px) {
   .hero {
-    padding: 40px 32px;
+    min-height: 70vh;
+  }
+
+  .hero .wrap {
+    padding-bottom: 72px;
   }
 }
