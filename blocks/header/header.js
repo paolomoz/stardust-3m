@@ -6,8 +6,8 @@
 
 // Absolute local paths so the nav resolves from every page (not just home).
 const NAV = [
-  { label: 'Products', href: '/3m/en_us/p/c/adhesives' },
-  { label: 'Industries', href: '/3m/en_us/building-construction-us' },
+  { label: 'Products', href: '/3m/en_us/products' },
+  { label: 'Industries', href: '/3m/en_us/industries' },
   { label: 'About', href: '/3m/en_us/about-3m' },
 ];
 

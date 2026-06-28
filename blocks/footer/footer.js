@@ -10,8 +10,8 @@ const COLUMNS = [
   {
     h: 'Products',
     links: [
+      { t: 'All products', href: '/3m/en_us/products' },
       { t: 'Adhesives & tapes', href: '/3m/en_us/p/c/adhesives' },
-      { t: 'Tapes', href: '/3m/en_us/p/c/tapes' },
       { t: 'Personal protective equipment', href: '/3m/en_us/p/c/ppe' },
       { t: 'Office supplies', href: '/3m/en_us/p/c/office-supplies' },
     ],
@@ -19,9 +19,9 @@ const COLUMNS = [
   {
     h: 'Industries',
     links: [
+      { t: 'All industries', href: '/3m/en_us/industries' },
       { t: 'Building & construction', href: '/3m/en_us/building-construction-us' },
       { t: 'Transportation', href: '/3m/en_us/transportation-us' },
-      { t: 'Electrical', href: '/3m/en_us/electrical-construction-maintenance-us' },
       { t: 'Worker health & safety', href: '/3m/en_us/worker-health-safety-us' },
     ],
   },
