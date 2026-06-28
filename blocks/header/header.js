@@ -4,15 +4,16 @@
  * toggled by a JS click handler (block JS runs, unlike fragment scripts).
  */
 
+// Absolute local paths so the nav resolves from every page (not just home).
 const NAV = [
-  { label: 'Products', href: '#breadth' },
-  { label: 'Industries', href: '#industries' },
-  { label: 'Brands', href: '#who' },
+  { label: 'Products', href: '/3m/en_us/p/c/adhesives' },
+  { label: 'Industries', href: '/3m/en_us/building-construction-us' },
+  { label: 'About', href: '/3m/en_us/about-3m' },
 ];
 
 const ACTIONS = [
-  { label: 'Search', href: '#' },
-  { label: 'Sign In', href: '#' },
+  { label: 'Careers', href: '/3m/en_us/careers-us' },
+  { label: 'Sign In', href: 'https://www.3m.com/mmm/login' },
 ];
 
 export default async function decorate(block) {
